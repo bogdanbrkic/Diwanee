@@ -5,6 +5,7 @@
     .jobs .job-header h3 {
       font-family: "Roboto";
       font-size: 14px;
+      font-weight: 400;
       color: #a7a7a7;
       text-align: center;
       padding: 0 0 40px 0;
@@ -12,11 +13,12 @@
     .jobs .job-header h2 {
       font-family: "Roboto";
       font-size: 50px;
+      font-weight: 400;
       text-align: center;
       padding: 0 0 40px 0; }
     .jobs .job-header hr {
       width: 60px;
-      border-top: 1px solid #c41230; }
+      border-top: 2px solid #c41230; }
     .jobs .job-header p {
       font-family: "Roboto";
       font-size: 24px;
@@ -43,18 +45,29 @@
         .jobs .job-offer .hover-wrap .offer-a p, .jobs .job-offer .hover-wrap .offer-b p, .jobs .job-offer .hover-wrap .offer-c p {
           font-family: "Roboto";
           font-size: 18px;
+          font-weight: 300;
           line-height: 25px;
           width: 460px; }
         .jobs .job-offer .hover-wrap .offer-a:hover, .jobs .job-offer .hover-wrap .offer-b:hover, .jobs .job-offer .hover-wrap .offer-c:hover {
-          background-color: black;
+          background-color: #000;
           color: #fff; }
-          .jobs .job-offer .hover-wrap .offer-a:hover .btn-style, .jobs .job-offer .hover-wrap .offer-b:hover .btn-style, .jobs .job-offer .hover-wrap .offer-c:hover .btn-style {
-            border: 1 px solid white; }
+          .jobs .job-offer .hover-wrap .offer-a:hover .btn-style-main, .jobs .job-offer .hover-wrap .offer-b:hover .btn-style-main, .jobs .job-offer .hover-wrap .offer-c:hover .btn-style-main {
+            border: 2px solid #fff;
+            background-color: #000;
+            color: #fff; }
+          .jobs .job-offer .hover-wrap .offer-a:hover .button-wrap .span-style, .jobs .job-offer .hover-wrap .offer-b:hover .button-wrap .span-style, .jobs .job-offer .hover-wrap .offer-c:hover .button-wrap .span-style {
+            color: #fff; }
         .jobs .job-offer .hover-wrap .offer-a .button-wrap, .jobs .job-offer .hover-wrap .offer-b .button-wrap, .jobs .job-offer .hover-wrap .offer-c .button-wrap {
           padding-top: 35px; }
       .jobs .job-offer .hover-wrap:hover {
-        background-color: black;
+        background-color: #000;
         color: #fff; }
+        .jobs .job-offer .hover-wrap:hover .btn-style-main {
+          border: 2px solid #fff;
+          background-color: #000;
+          color: #fff; }
+        .jobs .job-offer .hover-wrap:hover .button-wrap .span-style {
+          color: #fff; }
     .jobs .job-offer .mobile-wrap {
       display: none; }
 
@@ -94,11 +107,12 @@
       .jobs .job-offer .mobile-wrap h3 {
         font-family: "Roboto";
         font-size: 18px;
-        font-weight: 400;
+        font-weight: 500;
         padding: 30px 0 20px 0; }
       .jobs .job-offer .mobile-wrap p {
         font-family: "Roboto";
         font-size: 15px;
+        font-weight: 300;
         line-height: 20px;
         max-width: 460px; }
       .jobs .job-offer .mobile-wrap .button-wrap {
@@ -107,6 +121,7 @@
           margin-right: 10px;
           font-family: "Roboto";
           font-size: 14px;
+          font-weight: 300;
           color: #c41230; }
       .jobs .job-offer .mobile-wrap .offer-m-b {
         background-color: #fff; } }

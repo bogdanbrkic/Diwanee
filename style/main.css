@@ -344,15 +344,25 @@ header {
           line-height: 25px;
           width: 460px; }
         .jobs .job-offer .hover-wrap .offer-a:hover, .jobs .job-offer .hover-wrap .offer-b:hover, .jobs .job-offer .hover-wrap .offer-c:hover {
-          background-color: black;
+          background-color: #000;
           color: #fff; }
-          .jobs .job-offer .hover-wrap .offer-a:hover .btn-style, .jobs .job-offer .hover-wrap .offer-b:hover .btn-style, .jobs .job-offer .hover-wrap .offer-c:hover .btn-style {
-            border: 1 px solid white; }
+          .jobs .job-offer .hover-wrap .offer-a:hover .btn-style-main, .jobs .job-offer .hover-wrap .offer-b:hover .btn-style-main, .jobs .job-offer .hover-wrap .offer-c:hover .btn-style-main {
+            border: 2px solid #fff;
+            background-color: #000;
+            color: #fff; }
+          .jobs .job-offer .hover-wrap .offer-a:hover .button-wrap .span-style, .jobs .job-offer .hover-wrap .offer-b:hover .button-wrap .span-style, .jobs .job-offer .hover-wrap .offer-c:hover .button-wrap .span-style {
+            color: #fff; }
         .jobs .job-offer .hover-wrap .offer-a .button-wrap, .jobs .job-offer .hover-wrap .offer-b .button-wrap, .jobs .job-offer .hover-wrap .offer-c .button-wrap {
           padding-top: 35px; }
       .jobs .job-offer .hover-wrap:hover {
-        background-color: black;
+        background-color: #000;
         color: #fff; }
+        .jobs .job-offer .hover-wrap:hover .btn-style-main {
+          border: 2px solid #fff;
+          background-color: #000;
+          color: #fff; }
+        .jobs .job-offer .hover-wrap:hover .button-wrap .span-style {
+          color: #fff; }
     .jobs .job-offer .mobile-wrap {
       display: none; }
 
@@ -621,25 +631,13 @@ footer {
         color: #313131;
         padding-top: 12px;
         margin-left: 10%; } }
-.btn-style {
-  outline: none;
-  height: 35px;
-  width: 87px;
-  background: #fff;
+.span-style {
   border: 1px solid #bbb;
-  cursor: pointer;
-  transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
+  padding: 10px 15px;
   font-family: "Roboto";
   font-size: 13px;
   font-weight: 400;
-  text-align: center; }
-  .btn-style:hover {
-    color: #a41230;
-    border: 2px solid #fff;
-    background: #000; }
+  color: #a41230; }
 
 .btn-style-main {
   display: inline-block;
@@ -662,9 +660,7 @@ footer {
   text-align: center;
   letter-spacing: 2px; }
   .btn-style-main:hover {
-    color: #a41230;
-    border: 2px solid #fff;
-    background: #000; }
+    color: #a41230 !important; }
 
 .more-position {
   margin: 105px auto 0 auto;
@@ -685,9 +681,9 @@ footer {
     font-weight: 400;
     text-align: center; }
     .more-position .btn-style-down:hover {
-      color: #a41230;
+      color: rgba(0, 0, 0, 0.7);
       border: none;
-      background: #000; }
+      background: #d6d4d4; }
 
 @media screen and (max-width: 719px) {
   .more-position {
